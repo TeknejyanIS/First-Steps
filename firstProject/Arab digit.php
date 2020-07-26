@@ -1,6 +1,6 @@
 <?php
     $rimDigit = '';
-    $digit = 1329;
+    $digit = readline('Введите арабское число!');
 	  $a = $digit / 1000 % 10 ;
 		$b = $digit / 100 % 10;
 		$c = $digit / 10 % 10;

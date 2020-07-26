@@ -1,7 +1,7 @@
 <?php
 
 	$flag = true;
-	$brackets = "([{[]()}])";
+	$brackets = readline('Введите комбинацию скобок!');
 
 	$indRight = strlen($brackets) - 1;
 	$indLeft = 0;

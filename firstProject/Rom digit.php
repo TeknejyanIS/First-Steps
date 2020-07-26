@@ -1,6 +1,6 @@
 <?php
 	  $flag = false;
-	  $rimDigits = "IVXLCDM" ;
+	  $rimDigits = readline('Введите римское число!') ;
 		$digits = [1, 5, 10, 50, 100, 500, 1000];
     $rimDigit = "MMDCXLIII";
 		$i = strlen($rimDigit);
